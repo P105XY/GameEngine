@@ -15,4 +15,10 @@ namespace OPENGLENGINE
 		while (true);
 	}
 
+	Application* CreateApplication()
+	{
+		return nullptr;
+	}
+
+
 }

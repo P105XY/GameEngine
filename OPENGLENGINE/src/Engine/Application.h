@@ -15,4 +15,7 @@ namespace OPENGLENGINE
 		void Run();
 
 	};
+
+	//defined client
+	Application* CreateApplication();
 }

@@ -13,11 +13,7 @@ public:
 	}
 };
 
-
-int main()
+OPENGLENGINE::Application* OPENGLENGINE::CreateApplication()
 {
-	SandBox* sandbox = new SandBox();
-	sandbox->Run();
-
-	return 0;
+	return new SandBox();
 }
